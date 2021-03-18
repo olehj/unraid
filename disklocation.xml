@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Containers>
+<Plugin>True</Plugin>
+<PluginURL>https://raw.githubusercontent.com/olehj/disklocation/master/disklocation-master.plg</PluginURL>
+<PluginAuthor>Ole-Henrik Jakobsen</PluginAuthor>
+<Beta>False</Beta>
+<Category>Other: Tools:</Category>
+<Date>2021-03-03</Date>
+<Name>Disk Location</Name>
+<Description>
+Locate your drives and assign them to a graphical tray map to get full overview of installed hard drives in your system.
+</Description>
+<Support>https://forums.unraid.net/topic/77302-plugin-disk-location/</Support>
+<IconFA>server</IconFA>
+<DonateText>I love craft beer and will buy beer for money!</DonateText>
+<DonateLink>https://paypal.me/olehj</DonateLink>
+</Containers>

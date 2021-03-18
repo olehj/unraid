@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maintainer>
+  <Icon>https://raw.githubusercontent.com/olehj/unraid/master/flamongo.png</Icon>
+  <Profile>
+    Creator of Disk Location plugin and nsfminerOC docker for Unraid.
+  </Profile>
+  <DonateLink>https://www.paypal.me/olehj</DonateLink>
+  <DonateText>Donate me a beer if you like my plugin.. or not</DonateText>
+  <Forum>https://forums.unraid.net/profile/86216-olehj/</Forum>
+</Maintainer>
