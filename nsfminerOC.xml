@@ -16,6 +16,7 @@
   <BindTime>true</BindTime>
   <Privileged>true</Privileged>
   <ExtraParams>--runtime=nvidia --gpus=all</ExtraParams>
+  <PostArguments>-R --nocolor</PostArguments>
   <Shell>sh</Shell>
   <Networking>
     <Mode>bridge</Mode>
@@ -145,6 +146,4 @@
   <Config Name="NSFMINER_GPUFANSPEED1" Target="NSFMINER_GPUFANSPEED1" Default="" Mode="" Description="Set the speed in percent of FAN ID 1" Type="Variable" Display="always" Required="false" Mask="false">100</Config>
   <Config Name="NSFMINER_GPUFAN2" Target="NSFMINER_GPUFAN2" Default="" Mode="" Description="Set the FAN ID 2 of GPU" Type="Variable" Display="always" Required="false" Mask="false">1</Config>
   <Config Name="NSFMINER_GPUFANSPEED2" Target="NSFMINER_GPUFANSPEED2" Default="" Mode="" Description="Set the speed in percent of FAN ID 2" Type="Variable" Display="always" Required="false" Mask="false">100</Config>
-  <Config Name="NSFMINER_REPORTHASHRATES" Target="NSFMINER_REPORTHASHRATES" Default="true" Mode="" Description="Report hashrates to the pool" Type="Variable" Display="always" Required="false" Mask="false">true</Config>
-  <Config Name="NSFMINER_NOCOLOR" Target="NSFMINER_NOCOLOR" Default="true" Mode="" Description="Disable colored output, looks better for Unraid" Type="Variable" Display="always" Required="false" Mask="false">true</Config>
 </Container>
