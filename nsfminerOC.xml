@@ -3,6 +3,7 @@
   <Beta>False</Beta>
   <Category>Other:</Category>
   <Name>NsfminerOC</Name>
+  <Date>2021-03-25</Date>
   <Icon>https://raw.githubusercontent.com/olehj/unraid/main/nsfmineroc.png</Icon>
   <Description>
     Nsfminer with Nvidia drivers and OC capability.
