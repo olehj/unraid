@@ -16,8 +16,7 @@
   <BindTime>true</BindTime>
   <Privileged>true</Privileged>
   <ExtraParams>--runtime=nvidia --gpus=all</ExtraParams>
-  <PostArguments>-R --nocolor</PostArguments>
-  <Shell>sh</Shell>
+    <Shell>sh</Shell>
   <Networking>
     <Mode>bridge</Mode>
     <Publish/>
@@ -112,16 +111,6 @@
     <Variable>
       <Value>100</Value>
       <Name>NSFMINER_GPUFANSPEED2</Name>
-      <Mode/>
-    </Variable>
-    <Variable>
-      <Value>true</Value>
-      <Name>NSFMINER_REPORTHASHRATES</Name>
-      <Mode/>
-    </Variable>
-    <Variable>
-      <Value>true</Value>
-      <Name>NSFMINER_NOCOLOR</Name>
       <Mode/>
     </Variable>
   </Environment>
