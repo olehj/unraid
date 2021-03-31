@@ -3,7 +3,7 @@
   <Beta>False</Beta>
   <Category>Other:</Category>
   <Name>NsfminerOC</Name>
-  <Date>2021-03-30</Date>
+  <Date>2021-03-31</Date>
   <Icon>https://raw.githubusercontent.com/olehj/unraid/main/nsfmineroc.png</Icon>
   <Description>
     Nsfminer with Nvidia drivers and OC capability.
@@ -115,8 +115,6 @@
     </Variable>
   </Environment>
   <Labels/>
-  <Config Name="NVIDIA_VISIBLE_DEVICES" Target="NVIDIA_VISIBLE_DEVICES" Default="" Mode="" Description="Container Variable: NVIDIA_VISIBLE_DEVICES" Type="Variable" Display="always" Required="false" Mask="false">all</Config>
-  <Config Name="NVIDIA_DRIVER_CAPABILITIES" Target="NVIDIA_DRIVER_CAPABILITIES" Default="all" Mode="" Description="Container Variable: NVIDIA_DRIVER_CAPABILITIES" Type="Variable" Display="always" Required="false" Mask="false">all</Config>
   <Config Name="NSFMINER_GPU" Target="NSFMINER_GPU" Default="" Mode="" Description="Set GPU ID to use" Type="Variable" Display="always" Required="false" Mask="false">0</Config>
   <Config Name="NSFMINER_GPUPOWERLIMIT" Target="NSFMINER_GPUPOWERLIMIT" Default="" Mode="" Description="Set power limit for GPU in Watt" Type="Variable" Display="always" Required="false" Mask="false">150</Config>
   <Config Name="NSFMINER_POWERMIZER" Target="NSFMINER_POWERMIZER" Default="" Mode="" Description="Set PowerMizer performance level" Type="Variable" Display="always" Required="false" Mask="false">2</Config>
